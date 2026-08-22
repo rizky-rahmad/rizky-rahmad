@@ -112,9 +112,9 @@
 
     <!-- role line, revealed through the typing window -->
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21">
-      <text x="72" y="196" fill="#4b6565">&gt;</text>
+      <text x="72" y="196" fill="#6f9494">&gt;</text>
       <g clip-path="url(#typeWindow)">
-        <text x="72" y="196" fill="#7dd3d3"><tspan fill="#4b6565">&gt;&#160;</tspan>Full Stack Web Developer<tspan fill="#4b6565">&#160;&amp;&#160;</tspan>AI Implementation Specialist</text>
+        <text x="72" y="196" fill="#7dd3d3"><tspan fill="#6f9494">&gt;&#160;</tspan>Full Stack Web Developer<tspan fill="#6f9494">&#160;&amp;&#160;</tspan>AI Implementation Specialist</text>
       </g>
       <!-- caret rides the edge of the typing window -->
       <rect y="178" width="11" height="22" fill="#2dd4bf" class="caret">
@@ -127,9 +127,9 @@
 
     <line x1="72" y1="224" x2="1128" y2="224" stroke="#1e3535" stroke-width="1"/>
 
-    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#6b8f8f">
-      <text x="72" y="258">Node.js<tspan fill="#274040">&#160;&#160;/&#160;&#160;</tspan>React<tspan fill="#274040">&#160;&#160;/&#160;&#160;</tspan>Next.js<tspan fill="#274040">&#160;&#160;/&#160;&#160;</tspan>TypeScript<tspan fill="#274040">&#160;&#160;/&#160;&#160;</tspan>PostgreSQL<tspan fill="#274040">&#160;&#160;/&#160;&#160;</tspan>Azure<tspan fill="#274040">&#160;&#160;/&#160;&#160;</tspan>Gemini</text>
-      <text x="1128" y="258" text-anchor="end" fill="#3d5c5c">Central Jakarta, ID</text>
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#a9cfcb">
+      <text x="72" y="258">Node.js<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>React<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>Next.js<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>TypeScript<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>PostgreSQL<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>Azure<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>Gemini</text>
+      <text x="1128" y="258" text-anchor="end" fill="#8fb5b1">Central Jakarta, ID</text>
     </g>
 
     <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="none" stroke="#1c3333" stroke-width="1"/>
