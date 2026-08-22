@@ -29,17 +29,7 @@ the model on every message. That is what it did at first, and it cost about
 The fix was not a faster model or a smaller payload. It was doing the reading at
 a different moment:
 
-```mermaid
-flowchart LR
-    A[I paste into<br/>the Google Doc] --> B{GitHub Actions<br/>hourly}
-    B -->|hash unchanged| C[stop, no cost]
-    B -->|hash changed| D[Gemini transcribes<br/>the document once]
-    D --> E[commit resume.json]
-    E --> F[Cloudflare<br/>deploys]
-    G[Visitor asks<br/>a question] --> H[8KB of text<br/>+ the question]
-    F -.-> H
-    H --> I[Answer in ~2s]
-```
+<img src="assets/pipeline.svg" alt="Pipeline: the Google Doc is hashed hourly by GitHub Actions; only a changed document is transcribed once by Gemini, committed as an 8KB JSON file, and served to a visitor in about two seconds" width="100%">
 
 The document is hashed first, so an unchanged résumé costs nothing at all. I
 still update it the same way as before: by pasting into the Doc.
@@ -91,6 +81,21 @@ points.
 **Certified** — Microsoft Azure AI Fundamentals (AI-900)
 
 </details>
+
+### How I work
+
+<img src="assets/workflow.svg" alt="A terminal session: measuring which leg is slow before optimising, and finding that Largest Contentful Paint was waiting on a CSS fade" width="100%">
+
+I use **Claude Code** in my daily loop — not to produce code I could not explain,
+but to move faster through the mechanical parts and to have something to argue
+with while debugging. It is most useful exactly where I am most likely to be
+confidently wrong.
+
+Both results on this page came out of that: three plausible explanations for the
+chatbot's latency were wrong before measurement settled it, and the mobile LCP
+turned out to be waiting on my own CSS rather than on the network. The tool did
+not know the answer either — it made it cheap to test each hypothesis until one
+survived.
 
 ### Reach me
 

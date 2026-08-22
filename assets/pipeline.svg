@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Résumé pipeline: a Google Doc is hashed hourly by GitHub Actions, transcribed once by Gemini when it changes, committed as JSON, deployed by Cloudflare, and answered to visitors in about two seconds">
+  <title>How the résumé reaches a visitor's question</title>
+
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#0a1414"/>
+    </linearGradient>
+    <linearGradient id="nodeFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111c22"/>
+      <stop offset="100%" stop-color="#0b1216"/>
+    </linearGradient>
+    <pattern id="pgrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#2dd4bf" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="pcard"><rect width="1200" height="240" rx="14"/></clipPath>
+
+    <style>
+      /* Dots travel the wire, so the diagram reads as a flow and not a picture. */
+      .wire { stroke-dasharray: 5 7; animation: march 1.6s linear infinite; }
+      .beat { animation: beat 2.4s ease-in-out infinite; }
+
+      @keyframes march { to { stroke-dashoffset: -24; } }
+      @keyframes beat  { 0%,100% { opacity:.35; } 50% { opacity:1; } }
+
+      @media (prefers-reduced-motion: reduce) {
+        .wire, .beat { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#pcard)">
+    <rect width="1200" height="240" fill="url(#pbg)"/>
+    <rect width="1200" height="240" fill="url(#pgrid)"/>
+
+    <!-- the wire every stage sits on -->
+    <path id="wire" d="M 120 120 L 1080 120" fill="none" stroke="#1c3a3a" stroke-width="2"/>
+    <path d="M 120 120 L 1080 120" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-opacity="0.5" class="wire"/>
+
+    <!-- packets riding the wire -->
+    <g fill="#2dd4bf">
+      <circle r="4">
+        <animateMotion dur="4.5s" begin="0s" repeatCount="indefinite" path="M 120 120 L 1080 120"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1"
+                 dur="4.5s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4">
+        <animateMotion dur="4.5s" begin="0.9s" repeatCount="indefinite" path="M 120 120 L 1080 120"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1"
+                 dur="4.5s" begin="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4">
+        <animateMotion dur="4.5s" begin="1.8s" repeatCount="indefinite" path="M 120 120 L 1080 120"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1"
+                 dur="4.5s" begin="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4">
+        <animateMotion dur="4.5s" begin="2.7s" repeatCount="indefinite" path="M 120 120 L 1080 120"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1"
+                 dur="4.5s" begin="2.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4">
+        <animateMotion dur="4.5s" begin="3.6s" repeatCount="indefinite" path="M 120 120 L 1080 120"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1"
+                 dur="4.5s" begin="3.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+      <!-- 1. source -->
+      <g>
+        <rect x="34" y="86" width="172" height="68" rx="10" fill="url(#nodeFill)" stroke="#1c3333"/>
+        <rect x="34" y="86" width="3" height="68" rx="1.5" fill="#2dd4bf"/>
+        <text x="120" y="112" font-size="14" fill="#e6f6f4">Google Doc</text>
+        <text x="120" y="134" font-size="11.5" fill="#5f8585">I paste, as always</text>
+      </g>
+
+      <!-- 2. hourly hash check -->
+      <g>
+        <rect x="246" y="86" width="182" height="68" rx="10" fill="url(#nodeFill)" stroke="#1c3333"/>
+        <rect x="246" y="86" width="3" height="68" rx="1.5" fill="#2dd4bf"/>
+        <text x="337" y="112" font-size="14" fill="#e6f6f4">GitHub Actions</text>
+        <text x="337" y="134" font-size="11.5" fill="#5f8585">hashes it, hourly</text>
+        <circle cx="410" cy="98" r="3.5" fill="#2dd4bf" class="beat"/>
+      </g>
+
+      <!-- unchanged: the cheap path out -->
+      <path d="M 337 154 L 337 196 L 470 196" fill="none" stroke="#1c3a3a" stroke-width="1.5" stroke-dasharray="4 5"/>
+      <text x="500" y="200" font-size="11.5" fill="#416060" text-anchor="start">unchanged → stop, nothing spent</text>
+
+      <!-- 3. transcription -->
+      <g>
+        <rect x="468" y="86" width="182" height="68" rx="10" fill="url(#nodeFill)" stroke="#1c3333"/>
+        <rect x="468" y="86" width="3" height="68" rx="1.5" fill="#22d3ee"/>
+        <text x="559" y="112" font-size="14" fill="#e6f6f4">Gemini</text>
+        <text x="559" y="134" font-size="11.5" fill="#5f8585">reads the scans once</text>
+      </g>
+
+      <!-- 4. artefact -->
+      <g>
+        <rect x="690" y="86" width="182" height="68" rx="10" fill="url(#nodeFill)" stroke="#1c3333"/>
+        <rect x="690" y="86" width="3" height="68" rx="1.5" fill="#2dd4bf"/>
+        <text x="781" y="112" font-size="14" fill="#e6f6f4">resume.json</text>
+        <text x="781" y="134" font-size="11.5" fill="#5f8585">8&#160;KB, committed</text>
+      </g>
+
+      <!-- 5. answer -->
+      <g>
+        <rect x="912" y="86" width="182" height="68" rx="10" fill="url(#nodeFill)" stroke="#1c3333"/>
+        <rect x="912" y="86" width="3" height="68" rx="1.5" fill="#22d3ee"/>
+        <text x="1003" y="112" font-size="14" fill="#e6f6f4">Visitor's answer</text>
+        <text x="1003" y="134" font-size="11.5" fill="#7fe9dc">~2s</text>
+      </g>
+    </g>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#3d5c5c">
+      <text x="34" y="42">READ ONCE, WHEN THE DOCUMENT CHANGES &#8212; NOT ONCE PER MESSAGE</text>
+      <text x="1166" y="42" text-anchor="end" fill="#2dd4bf" opacity="0.75">49s &#8594; 2s</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="239" rx="14" fill="none" stroke="#1c3333"/>
+  </g>
+</svg>
