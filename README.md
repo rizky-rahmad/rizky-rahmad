@@ -7,6 +7,8 @@ place. Based in Central Jakarta, working with institutional clients and startups
 Most of what I enjoy is the part after it works: finding out *why* it is slow, and
 being willing to be wrong about the answer.
 
+<img src="assets/divider.svg" alt="" width="100%">
+
 ### Selected work
 
 | Project | What it does | Live |
@@ -73,14 +75,11 @@ points.
 
 <br>
 
-**Frontend** — React, Next.js (App Router), TypeScript, Tailwind CSS, Radix / shadcn-ui
-**Backend** — Node.js, Express, NestJS, REST APIs, JWT & OAuth 2.0
-**Data** — PostgreSQL (schema design, query optimisation), Redis, Supabase
-**AI** — Gemini, OpenAI, prompt design, retrieval over real documents
-**Infra** — Cloudflare Workers & Pages, Vercel, Azure Functions, GitHub Actions, Docker
-**Certified** — Microsoft Azure AI Fundamentals (AI-900)
+<img src="assets/skills.svg" alt="Stack: React, Next.js, TypeScript and Tailwind on the frontend; Node.js, Express, NestJS, REST, JWT and OAuth 2.0 on the backend; PostgreSQL, Redis and Supabase for data; Gemini, OpenAI, prompt design and document retrieval for AI; Cloudflare, Vercel, Azure Functions, GitHub Actions and Docker for infrastructure. Microsoft Certified Azure AI Fundamentals." width="100%">
 
 </details>
+
+<img src="assets/divider.svg" alt="" width="100%">
 
 ### How I work
 
@@ -96,6 +95,8 @@ chatbot's latency were wrong before measurement settled it, and the mobile LCP
 turned out to be waiting on my own CSS rather than on the network. The tool did
 not know the answer either — it made it cheap to test each hypothesis until one
 survived.
+
+<img src="assets/divider.svg" alt="" width="100%">
 
 ### Reach me
 

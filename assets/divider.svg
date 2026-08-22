@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 14" width="1200" height="14" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#2dd4bf" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .run { animation: run 7s ease-in-out infinite; }
+      @keyframes run { 0%,100% { transform: translateX(-260px); } 50% { transform: translateX(1200px); } }
+      @media (prefers-reduced-motion: reduce) { .run { animation: none; opacity: .5; } }
+    </style>
+  </defs>
+  <rect x="0" y="6.5" width="1200" height="1" fill="#1c3333"/>
+  <g class="run"><rect x="0" y="5.5" width="260" height="3" rx="1.5" fill="url(#pulse)"/></g>
+</svg>
