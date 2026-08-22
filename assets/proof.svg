@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Mobile PageSpeed performance 98 out of 100, and Largest Contentful Paint improved from 1536 milliseconds to 508 milliseconds">
+  <title>Measured, not claimed</title>
+
+  <defs>
+    <linearGradient id="prbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#0a1414"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="prgrid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#2dd4bf" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="prcard"><rect width="1200" height="300" rx="14"/></clipPath>
+
+    <!-- the "after" value is uncovered by a window that widens -->
+    <clipPath id="afterWipe">
+      <rect x="742" y="150" width="0" height="70">
+        <animate attributeName="width" values="0;0;300;300;0" keyTimes="0;0.34;0.52;0.94;1"
+                 dur="11s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <style>
+      /* The ring draws itself, and the number climbs beside it, so the score is
+         watched being earned rather than simply displayed. */
+      .ring {
+        stroke-dasharray: 439.8;
+        stroke-dashoffset: 439.8;
+        animation: draw 11s ease-out infinite;
+      }
+      .n0 { animation: tick 11s linear infinite; }
+      .n1 { animation: tick 11s linear infinite; animation-delay: .28s; }
+      .n2 { animation: tick 11s linear infinite; animation-delay: .56s; }
+      .n3 { animation: tick 11s linear infinite; animation-delay: .84s; }
+      .n4 { animation: tick 11s linear infinite; animation-delay: 1.12s; }
+      .n5 { animation: tick 11s linear infinite; animation-delay: 1.40s; }
+      .n6 { animation: hold 11s linear infinite; animation-delay: 1.68s; }
+
+      .old  { animation: fadeOld 11s ease-in-out infinite; }
+      .arrow{ animation: arrowIn 11s ease-out infinite; }
+      .label{ animation: labelIn 11s ease-out infinite; }
+
+      @keyframes draw {
+        0%   { stroke-dashoffset: 439.8; }
+        22%  { stroke-dashoffset: 8.8; }
+        94%  { stroke-dashoffset: 8.8; }
+        100% { stroke-dashoffset: 439.8; }
+      }
+      /* each number is visible only for its slice of the climb */
+      @keyframes tick { 0% { opacity:0; } 1% { opacity:1; } 3.4% { opacity:1; } 4.4% { opacity:0; } 100% { opacity:0; } }
+      @keyframes hold { 0% { opacity:0; } 1% { opacity:1; } 92% { opacity:1; } 100% { opacity:0; } }
+      @keyframes fadeOld  { 0%,30% { opacity:0; } 34%,92% { opacity:1; } 100% { opacity:0; } }
+      @keyframes arrowIn  { 0%,44% { opacity:0; } 50%,92% { opacity:1; } 100% { opacity:0; } }
+      @keyframes labelIn  { 0%,8% { opacity:0; } 14%,92% { opacity:1; } 100% { opacity:0; } }
+
+      @media (prefers-reduced-motion: reduce) {
+        .ring { stroke-dashoffset: 8.8; animation: none; }
+        .n0,.n1,.n2,.n3,.n4,.n5 { opacity: 0; animation: none; }
+        .n6, .old, .arrow, .label { opacity: 1; animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#prcard)">
+    <rect width="1200" height="300" fill="url(#prbg)"/>
+    <rect width="1200" height="300" fill="url(#prgrid)"/>
+
+    <text x="34" y="40" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#7ba3a0" letter-spacing="2.4">MEASURED, NOT CLAIMED</text>
+    <line x1="34" y1="54" x2="1166" y2="54" stroke="#1c3333"/>
+
+    <!-- ── the score ring ── -->
+    <g transform="translate(180, 175)">
+      <circle r="70" fill="none" stroke="#16292c" stroke-width="10"/>
+      <circle r="70" fill="none" stroke="url(#ringGrad)" stroke-width="10" stroke-linecap="round"
+              class="ring" transform="rotate(-90)"/>
+      <g font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="46" font-weight="700" text-anchor="middle" fill="#e6f6f4">
+        <text y="16" class="n0">0</text>
+        <text y="16" class="n1">18</text>
+        <text y="16" class="n2">42</text>
+        <text y="16" class="n3">63</text>
+        <text y="16" class="n4">79</text>
+        <text y="16" class="n5">90</text>
+        <text y="16" class="n6">98</text>
+      </g>
+    </g>
+    <text x="180" y="278" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#a9cfcb" class="label">PERFORMANCE &#183; MOBILE</text>
+
+    <line x1="330" y1="86" x2="330" y2="262" stroke="#1c3333"/>
+
+    <!-- ── the numbers behind it ── -->
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+      <text x="392" y="112" font-size="12.5" fill="#7ba3a0" letter-spacing="2">LARGEST CONTENTFUL PAINT</text>
+
+      <g class="old">
+        <text x="392" y="196" font-size="52" fill="#7f9c9c">1536<tspan font-size="26" fill="#5f7f7f">&#160;ms</tspan></text>
+        <line x1="392" y1="180" x2="606" y2="180" stroke="#5f7f7f" stroke-width="2"/>
+        <text x="392" y="228" font-size="12.5" fill="#7ba3a0">waiting on our own CSS fade</text>
+      </g>
+
+      <text x="676" y="188" font-size="34" fill="#2dd4bf" class="arrow">&#8594;</text>
+
+      <g clip-path="url(#afterWipe)">
+        <text x="742" y="196" font-size="52" fill="#7fe9dc">508<tspan font-size="26" fill="#2dd4bf">&#160;ms</tspan></text>
+      </g>
+      <text x="742" y="228" font-size="12.5" fill="#7ba3a0" class="arrow">painted on the same frame as FCP</text>
+
+      <text x="1166" y="112" text-anchor="end" font-size="12.5" fill="#a9cfcb" class="label">CLS 0 &#183; TBT 20ms &#183; SEO 100</text>
+      <text x="1166" y="262" text-anchor="end" font-size="11.5" fill="#7ba3a0" class="label">three runs, median, throttled Pixel 7</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="none" stroke="#1c3333"/>
+    <rect x="0" y="0" width="3" height="300" fill="#2dd4bf"/>
+  </g>
+</svg>

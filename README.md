@@ -11,12 +11,12 @@ being willing to be wrong about the answer.
 
 ### Selected work
 
-| Project | What it does | Live |
-|---|---|---|
-| **[Portfolio + AI assistant](https://github.com/rizky-rahmad/portfolio-v2)** | Answers visitors' questions from my résumé, in English or Indonesian, in ~2s | [rizky-portfolio.pages.dev](https://rizky-portfolio.pages.dev) |
-| **[ApplyMate AI](https://github.com/rizky-rahmad/ApplyMateAi)** | Turns a résumé and a job posting into a match analysis and a tailored cover letter, grounded only in real experience | [apply-mate-ai-nine.vercel.app](https://apply-mate-ai-nine.vercel.app) |
-| **[SIKEMAS](https://sikemasbpsdm.web.id)** | Complaint management for BPSDM Aceh — multi-role RBAC, audit logs, automated ticket dispatch | [sikemasbpsdm.web.id](https://sikemasbpsdm.web.id) |
-| **[Barakah Qurban](https://github.com/rizky-rahmad/barakah-qurban)** | Landing page for a Qurban cattle provider | [barakah-qurban.vercel.app](https://barakah-qurban.vercel.app) |
+<a href="https://rizky-portfolio.pages.dev"><img src="assets/card-portfolio.svg" alt="Portfolio + AI assistant — answers a visitor's questions from my resume, in English or Indonesian, in about two seconds. Next.js, Gemini, Cloudflare." width="49%"></a>
+<a href="https://apply-mate-ai-nine.vercel.app"><img src="assets/card-applymate.svg" alt="ApplyMate AI — turns a resume and a job posting into a match analysis and a cover letter, grounded in real work. Next.js, TypeScript, Gemini." width="49%"></a>
+<a href="https://sikemasbpsdm.web.id"><img src="assets/card-sikemas.svg" alt="SIKEMAS — complaint management for BPSDM Aceh, with multi-role RBAC, audit logs and ticket dispatch. React, Node.js, PostgreSQL." width="49%"></a>
+<a href="https://barakah-qurban.vercel.app"><img src="assets/card-qurban.svg" alt="Barakah Qurban — landing page for a syariah-certified Qurban cattle provider, built to load fast on mobile. Next.js, React 19, Tailwind." width="49%"></a>
+
+Source: [portfolio-v2](https://github.com/rizky-rahmad/portfolio-v2) · [ApplyMateAi](https://github.com/rizky-rahmad/ApplyMateAi) · [barakah-qurban](https://github.com/rizky-rahmad/barakah-qurban)
 
 <details>
 <summary><b>How the portfolio chatbot actually works</b> — and the 49s → 2s story</summary>
@@ -62,7 +62,7 @@ waiting on my own animation**, not on the network. Giving above-the-fold text a
 transform-only animation, deferring the chat widget to `requestIdleCallback`, and
 inlining the render-blocking CSS took LCP from 1536ms to 508ms locally.
 
-Result: **98 / 100 / 96 / 100**, LCP 2.3s, CLS 0, Agentic Browsing 3/3.
+<img src="assets/proof.svg" alt="Mobile PageSpeed performance 98 out of 100, and Largest Contentful Paint improved from 1536ms to 508ms. CLS 0, TBT 20ms, SEO 100." width="100%">
 
 Best Practices stays at 96 because Cloudflare's own analytics beacon fails with
 `ERR_BLOCKED_BY_CLIENT`. I left it there — real analytics is worth more than four
