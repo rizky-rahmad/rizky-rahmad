@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 210" width="580" height="210" role="img" aria-label="PeopleOS: HR operating system — GPS time-clock, scheduling, hiring ATS and training for the whole company.">
+  <title>PeopleOS</title>
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#0a1414"/>
+    </linearGradient>
+    <linearGradient id="chip7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#132028"/>
+      <stop offset="100%" stop-color="#0c161b"/>
+    </linearGradient>
+    <linearGradient id="beam7" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2dd4bf" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="g7" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#2dd4bf" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="c7"><rect width="580" height="210" rx="13"/></clipPath>
+    <style>
+      /* A geofence ping: the GPS time-clock checking a staff member in.
+         The ring leaves, the dot stays — presence, confirmed. */
+      .beam { animation: beam 16s ease-in-out infinite; animation-delay: 14.0s; }
+      .edge { animation: edge 16s ease-in-out infinite; animation-delay: 14.0s; }
+      .rail { animation: rail 16s ease-in-out infinite; animation-delay: 14.0s; }
+      .live { animation: live 2.6s ease-in-out infinite; }
+      .ping { transform-box: fill-box; transform-origin: center; animation: ping 2.6s ease-out infinite; }
+
+      @keyframes beam { 0% { transform: translateX(-240px); opacity: 0; }
+                        4% { opacity: 1; }
+                        22% { transform: translateX(580px); opacity: 0; }
+                        100% { transform: translateX(580px); opacity: 0; } }
+      @keyframes edge { 0%,100% { stroke: #1c3333; } 10% { stroke: #2dd4bf; } 24% { stroke: #1c3333; } }
+      @keyframes rail { 0%,100% { opacity: .5; } 10% { opacity: 1; } 24% { opacity: .5; } }
+      @keyframes live { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+      @keyframes ping { 0% { transform: scale(0.3); opacity: 0.9; }
+                        70% { transform: scale(1); opacity: 0; }
+                        100% { transform: scale(1); opacity: 0; } }
+
+      @media (prefers-reduced-motion: reduce) {
+        .beam { display: none; }
+        .edge, .rail, .live, .ping { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#c7)">
+    <rect width="580" height="210" fill="url(#bg7)"/>
+    <rect width="580" height="210" fill="url(#g7)"/>
+    <g class="beam"><rect x="0" y="0" width="240" height="210" fill="url(#beam7)"/></g>
+
+    <text x="28" y="46" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="21" font-weight="700" fill="#e6f6f4">PeopleOS</text>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#a9cfcb">
+      <text x="28" y="80">HR operating system — GPS time-clock,</text>
+      <text x="28" y="100">scheduling, hiring ATS, training.</text>
+    </g>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5"><g transform="translate(28, 122)"><rect width="64" height="26" rx="7" fill="url(#chip7)" stroke="#1c3333"/><text x="32.0" y="17" text-anchor="middle" fill="#cfe9e6">React</text></g><g transform="translate(102, 122)"><rect width="78" height="26" rx="7" fill="url(#chip7)" stroke="#1c3333"/><text x="39.0" y="17" text-anchor="middle" fill="#cfe9e6">Express</text></g><g transform="translate(190, 122)"><rect width="100" height="26" rx="7" fill="url(#chip7)" stroke="#1c3333"/><text x="50.0" y="17" text-anchor="middle" fill="#cfe9e6">PostgreSQL</text></g></g>
+
+    <g>
+      <circle cx="505" cy="58" r="26" fill="none" stroke="#2dd4bf" stroke-width="2" class="ping"/>
+      <circle cx="505" cy="58" r="6" fill="#2dd4bf" class="live"/>
+    </g>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">
+      <circle cx="34" cy="180" r="4" fill="#2dd4bf" class="live"/>
+      <text x="48" y="184" fill="#7fe9dc">attendance · hiring · training</text>
+      <text x="552" y="184" text-anchor="end" fill="#7ba3a0">in production</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="579" height="209" rx="13" fill="none" stroke="#1c3333" stroke-width="1" class="edge"/>
+    <rect x="0" y="0" width="3" height="210" fill="#2dd4bf" class="rail"/>
+  </g>
+</svg>

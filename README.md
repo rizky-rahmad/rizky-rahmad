@@ -2,7 +2,7 @@
 
 I build web applications end to end — Node.js and Express on the back, React and
 Next.js on the front — and I put language models into them where they earn their
-place. Based in Central Jakarta, working with institutional clients and startups.
+place. Full Stack Developer at PT Unicorn, based in Ubud, Bali.
 
 Most of what I enjoy is the part after it works: finding out *why* it is slow, and
 being willing to be wrong about the answer.
@@ -17,6 +17,35 @@ being willing to be wrong about the answer.
 <a href="https://barakah-qurban.vercel.app"><img src="assets/card-qurban.svg" alt="Barakah Qurban — landing page for a syariah-certified Qurban cattle provider, built to load fast on mobile. Next.js, React 19, Tailwind." width="49%"></a>
 
 Source: [portfolio-v2](https://github.com/rizky-rahmad/portfolio-v2) · [ApplyMateAi](https://github.com/rizky-rahmad/ApplyMateAi) · [barakah-qurban](https://github.com/rizky-rahmad/barakah-qurban)
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+### Shipping now — PT Unicorn, production systems
+
+What I run in production every day: restaurants take bookings through these
+systems, and HR runs attendance and hiring on them.
+
+**Channelflow — omnichannel inbox + AI agent + bookings engine.**
+WhatsApp, Instagram, Email and TikTok in one inbox. A grounded multilingual AI
+answers from the knowledge base and live menu, takes bookings, and hands off
+to humans on allergy, VIP and low-confidence cases.
+
+**Channelflow Mobile — the staff app, on Android.** The dashboard's bookings
+in a pocket: 14-day list, day timeline, month view, analytics. Same backend,
+same data, verified screen by screen on an emulator.
+
+<img src="assets/card-channelflow.svg" alt="Channelflow — one inbox for WA, IG, Email and TikTok, with a grounded AI agent that answers and books. Next.js, Mastra, Hono.js." width="49%"> <img src="assets/card-channelflow-mobile.svg" alt="Channelflow Mobile — staff bookings on Android at parity with the dashboard. Expo, React Native, TypeScript." width="49%">
+
+**CMS — multi-tenant page builder.** One deploy serves many brands: free-form
+drag-and-drop builder, in-place editing, autosave drafts, design import,
+per-site themes and domains. All media served locally.
+
+**PeopleOS — HR / workforce operating system.** The whole employee lifecycle:
+GPS time-clock with geofencing, outlet scheduling, hiring ATS with video
+answers and AI scoring, training, announcements. Web app plus a React Native
+companion.
+
+<img src="assets/card-cms.svg" alt="CMS plus page builder — multi-tenant CMS with a free-form drag-and-drop builder. Next.js, Prisma, dnd-kit." width="49%"> <img src="assets/card-peopleos.svg" alt="PeopleOS — HR operating system with GPS time-clock, scheduling, hiring ATS and training. React, Express, PostgreSQL." width="49%">
 
 <details>
 <summary><b>How the portfolio chatbot actually works</b> — and the 49s → 2s story</summary>
