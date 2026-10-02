@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 210" width="580" height="210" role="img" aria-label="CMS plus page builder: Multi-tenant CMS with a free-form drag-and-drop builder serving many brands from one deploy.">
-  <title>CMS + page builder</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 210" width="580" height="210" role="img" aria-label="Unicorn CMS: Multi-tenant page builder with a Thrive-like drag-and-drop editor, autosave and version history — legacy live, full rebuild in progress.">
+  <title>Unicorn CMS</title>
   <defs>
     <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0a0a0f"/>
@@ -51,14 +51,14 @@
     <rect width="580" height="210" fill="url(#g6)"/>
     <g class="beam"><rect x="0" y="0" width="240" height="210" fill="url(#beam6)"/></g>
 
-    <text x="28" y="46" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="21" font-weight="700" fill="#e6f6f4">CMS + page builder</text>
+    <text x="28" y="46" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="21" font-weight="700" fill="#e6f6f4">Unicorn CMS</text>
 
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#a9cfcb">
-      <text x="28" y="80">Multi-tenant CMS with a free-form builder —</text>
-      <text x="28" y="100">many brands, one deploy, served locally.</text>
+      <text x="28" y="80">Thrive-like builder, autosave + history —</text>
+      <text x="28" y="100">many brands, one deploy, media self-hosted.</text>
     </g>
 
-    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5"><g transform="translate(28, 122)"><rect width="78" height="26" rx="7" fill="url(#chip6)" stroke="#1c3333"/><text x="39.0" y="17" text-anchor="middle" fill="#cfe9e6">Next.js</text></g><g transform="translate(116, 122)"><rect width="72" height="26" rx="7" fill="url(#chip6)" stroke="#1c3333"/><text x="36.0" y="17" text-anchor="middle" fill="#cfe9e6">Prisma</text></g><g transform="translate(198, 122)"><rect width="78" height="26" rx="7" fill="url(#chip6)" stroke="#1c3333"/><text x="39.0" y="17" text-anchor="middle" fill="#cfe9e6">dnd-kit</text></g></g>
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5"><g transform="translate(28, 122)"><rect width="78" height="26" rx="7" fill="url(#chip6)" stroke="#1c3333"/><text x="39.0" y="17" text-anchor="middle" fill="#cfe9e6">Next.js</text></g><g transform="translate(116, 122)"><rect width="76" height="26" rx="7" fill="url(#chip6)" stroke="#1c3333"/><text x="38.0" y="17" text-anchor="middle" fill="#cfe9e6">Drizzle</text></g><g transform="translate(202, 122)"><rect width="78" height="26" rx="7" fill="url(#chip6)" stroke="#1c3333"/><text x="39.0" y="17" text-anchor="middle" fill="#cfe9e6">Hono.js</text></g></g>
 
     <g fill="none" stroke="#2dd4bf" stroke-width="2">
       <rect class="drop d1" x="466" y="34" width="84" height="12" rx="3"/>
@@ -68,8 +68,8 @@
 
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">
       <circle cx="34" cy="180" r="4" fill="#2dd4bf" class="live"/>
-      <text x="48" y="184" fill="#7fe9dc">47 block families</text>
-      <text x="552" y="184" text-anchor="end" fill="#7ba3a0">in production</text>
+      <text x="48" y="184" fill="#7fe9dc">many brands · one deploy</text>
+      <text x="552" y="184" text-anchor="end" fill="#8fb5b1">rebuild in build</text>
     </g>
 
     <rect x="0.5" y="0.5" width="579" height="209" rx="13" fill="none" stroke="#1c3333" stroke-width="1" class="edge"/>

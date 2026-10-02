@@ -28,24 +28,32 @@ systems, and HR runs attendance and hiring on them.
 **Channelflow — omnichannel inbox + AI agent + bookings engine.**
 WhatsApp, Instagram, Email and TikTok in one inbox. A grounded multilingual AI
 answers from the knowledge base and live menu, takes bookings, and hands off
-to humans on allergy, VIP and low-confidence cases.
+to humans on allergy, VIP and low-confidence cases. It reads voice notes,
+photos and story replies. Staff run the same data from an **Android app**
+(14-day list, day timeline, month view, analytics — confirm, seat, cancel,
+OTA updates). A voice twin (guests call, the AI answers and books) is in
+prototype and merging in.
 
-**Channelflow Mobile — the staff app, on Android.** The dashboard's bookings
-in a pocket: 14-day list, day timeline, month view, analytics. Same backend,
-same data, verified screen by screen on an emulator.
+~110 new bookings/day · ~3,500 bookings/month · ~8,500 guests served/month ·
+~17.5k messages/month, measured from the production database (Oct 2026).
 
-<img src="assets/card-channelflow.svg" alt="Channelflow — one inbox for WA, IG, Email and TikTok, with a grounded AI agent that answers and books. Next.js, Mastra, Hono.js." width="49%"> <img src="assets/card-channelflow-mobile.svg" alt="Channelflow Mobile — staff bookings on Android at parity with the dashboard. Expo, React Native, TypeScript." width="49%">
+<img src="assets/card-channelflow.svg" alt="Channelflow — one inbox for WA, IG, Email and TikTok, with a grounded AI agent that answers and books, plus a staff Android app. About 110 bookings a day. Next.js, Mastra, Hono.js, Expo." width="100%">
 
-**CMS — multi-tenant page builder.** One deploy serves many brands: free-form
-drag-and-drop builder, in-place editing, autosave drafts, design import,
-per-site themes and domains. All media served locally.
+**Unicorn CMS — multi-tenant page builder, now being rebuilt.** One deploy
+serves many brands, each on its own domain. Editing feels like typing a
+document: Thrive-like drag-and-drop, click-text-to-type, autosave, undo,
+version history. The legacy build runs today; the full rebuild (Editor v1
+passed review Oct 2026) is taking over.
 
 **PeopleOS — HR / workforce operating system.** The whole employee lifecycle:
 GPS time-clock with geofencing, outlet scheduling, hiring ATS with video
 answers and AI scoring, training, announcements. Web app plus a React Native
-companion.
+companion that signs in with WhatsApp.
 
-<img src="assets/card-cms.svg" alt="CMS plus page builder — multi-tenant CMS with a free-form drag-and-drop builder. Next.js, Prisma, dnd-kit." width="49%"> <img src="assets/card-peopleos.svg" alt="PeopleOS — HR operating system with GPS time-clock, scheduling, hiring ATS and training. React, Express, PostgreSQL." width="49%">
+156 employees onboard · 8 active outlets · ~80 clock-ins/day · 3,100+ hiring
+candidates, measured from the production database (Oct 2026).
+
+<img src="assets/card-cms.svg" alt="Unicorn CMS — multi-tenant page builder with a Thrive-like editor, autosave and version history. Legacy live, rebuild in progress. Next.js, Drizzle, Hono.js." width="49%"> <img src="assets/card-peopleos.svg" alt="PeopleOS — HR operating system with GPS time-clock, video hiring plus AI scoring, and training. 156 employees, 8 outlets, about 80 clock-ins a day. React, Express, PostgreSQL." width="49%">
 
 <details>
 <summary><b>How the portfolio chatbot actually works</b> — and the 49s → 2s story</summary>
@@ -99,14 +107,9 @@ points.
 
 </details>
 
-<details>
-<summary><b>What I work with</b></summary>
+### What I work with
 
-<br>
-
-<img src="assets/skills.svg" alt="Stack: React, Next.js, TypeScript and Tailwind on the frontend; Node.js, Express, NestJS, REST, JWT and OAuth 2.0 on the backend; PostgreSQL, Redis and Supabase for data; Gemini, OpenAI, prompt design and document retrieval for AI; Cloudflare, Vercel, Azure Functions, GitHub Actions and Docker for infrastructure. Microsoft Certified Azure AI Fundamentals." width="100%">
-
-</details>
+<img src="assets/skills.svg" alt="Stack: React, Next.js, TypeScript, Tailwind and Expo on the frontend; Node.js, Express, Hono.js, NestJS, REST, JWT and OAuth 2.0 on the backend; PostgreSQL, Drizzle, Redis and Supabase for data; Gemini, OpenAI, Mastra, Whisper, prompt design and document retrieval for AI; Cloudflare, Vercel, Azure Functions, GitHub Actions, Docker and Coolify for infrastructure. Microsoft Certified Azure AI Fundamentals." width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
