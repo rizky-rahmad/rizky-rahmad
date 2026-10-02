@@ -28,22 +28,18 @@ systems, and HR runs attendance and hiring on them.
 **Channelflow — omnichannel inbox + AI agent + bookings engine.**
 WhatsApp, Instagram, Email and TikTok in one inbox. A grounded multilingual AI
 answers from the knowledge base and live menu, takes bookings, and hands off
-to humans on allergy, VIP and low-confidence cases. It reads voice notes,
-photos and story replies. Staff run the same data from an **Android app**
-(14-day list, day timeline, month view, analytics — confirm, seat, cancel,
-OTA updates). A voice twin (guests call, the AI answers and books) is in
-prototype and merging in.
+to humans on allergy, VIP and low-confidence cases. Staff run the same data
+from an **Android app**; a **voice prototype** is merging in.
 
-~110 new bookings/day · ~3,500 bookings/month · ~8,500 guests served/month ·
-~17.5k messages/month, measured from the production database (Oct 2026).
+~110 bookings/day · ~3,500/month · ~8,500 guests/month · ~17.5k messages/month
+(prod DB, Oct 2026).
 
 <img src="assets/card-channelflow.svg" alt="Channelflow — one inbox for WA, IG, Email and TikTok, with a grounded AI agent that answers and books, plus a staff Android app. About 110 bookings a day. Next.js, Mastra, Hono.js, Expo." width="100%">
 
 **Unicorn CMS — multi-tenant page builder, now being rebuilt.** One deploy
-serves many brands, each on its own domain. Editing feels like typing a
-document: Thrive-like drag-and-drop, click-text-to-type, autosave, undo,
-version history. The legacy build runs today; the full rebuild (Editor v1
-passed review Oct 2026) is taking over.
+serves many brands, each on its own domain: Thrive-like drag-and-drop,
+click-text-to-type, autosave, undo, version history. Legacy live; the rebuild
+(Editor v1 passed review Oct 2026) is taking over.
 
 **PeopleOS — HR / workforce operating system.** The whole employee lifecycle:
 GPS time-clock with geofencing, outlet scheduling, hiring ATS with video
@@ -53,7 +49,9 @@ companion that signs in with WhatsApp.
 156 employees onboard · 8 active outlets · ~80 clock-ins/day · 3,100+ hiring
 candidates, measured from the production database (Oct 2026).
 
-<img src="assets/card-cms.svg" alt="Unicorn CMS — multi-tenant page builder with a Thrive-like editor, autosave and version history. Legacy live, rebuild in progress. Next.js, Drizzle, Hono.js." width="49%"> <img src="assets/card-peopleos.svg" alt="PeopleOS — HR operating system with GPS time-clock, video hiring plus AI scoring, and training. 156 employees, 8 outlets, about 80 clock-ins a day. React, Express, PostgreSQL." width="49%">
+<img src="assets/card-cms.svg" alt="Unicorn CMS — multi-tenant page builder with a Thrive-like editor, autosave and version history. Legacy live, rebuild in progress. Next.js, Drizzle, Hono.js." width="100%">
+
+<img src="assets/card-peopleos.svg" alt="PeopleOS — HR operating system with GPS time-clock, video hiring plus AI scoring, and training. 156 employees, 8 outlets, about 80 clock-ins a day. React, Express, PostgreSQL." width="100%">
 
 <details>
 <summary><b>How the portfolio chatbot actually works</b> — and the 49s → 2s story</summary>
