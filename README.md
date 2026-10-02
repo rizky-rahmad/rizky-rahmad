@@ -1,4 +1,4 @@
-<img src="assets/header.svg" alt="Rahmad Rizki — Full Stack Web Developer & AI Implementation Specialist" width="100%">
+<img src="assets/header.svg?v=2" alt="Rahmad Rizki — Full Stack Web Developer & AI Implementation Specialist" width="100%">
 
 I build web applications end to end — Node.js and Express on the back, React and
 Next.js on the front — and I put language models into them where they earn their
@@ -34,7 +34,7 @@ to humans on allergy, VIP and low-confidence cases.
 in a pocket: 14-day list, day timeline, month view, analytics. Same backend,
 same data, verified screen by screen on an emulator.
 
-<img src="assets/card-channelflow.svg" alt="Channelflow — one inbox for WA, IG, Email and TikTok, with a grounded AI agent that answers and books. Next.js, Mastra, Hono.js." width="49%"> <img src="assets/card-channelflow-mobile.svg" alt="Channelflow Mobile — staff bookings on Android at parity with the dashboard. Expo, React Native, TypeScript." width="49%">
+<img src="assets/card-channelflow.svg?v=2" alt="Channelflow — one inbox for WA, IG, Email and TikTok, with a grounded AI agent that answers and books. Next.js, Mastra, Hono.js." width="49%"> <img src="assets/card-channelflow-mobile.svg?v=2" alt="Channelflow Mobile — staff bookings on Android at parity with the dashboard. Expo, React Native, TypeScript." width="49%">
 
 **CMS — multi-tenant page builder.** One deploy serves many brands: free-form
 drag-and-drop builder, in-place editing, autosave drafts, design import,
@@ -45,7 +45,7 @@ GPS time-clock with geofencing, outlet scheduling, hiring ATS with video
 answers and AI scoring, training, announcements. Web app plus a React Native
 companion.
 
-<img src="assets/card-cms.svg" alt="CMS plus page builder — multi-tenant CMS with a free-form drag-and-drop builder. Next.js, Prisma, dnd-kit." width="49%"> <img src="assets/card-peopleos.svg" alt="PeopleOS — HR operating system with GPS time-clock, scheduling, hiring ATS and training. React, Express, PostgreSQL." width="49%">
+<img src="assets/card-cms.svg?v=2" alt="CMS plus page builder — multi-tenant CMS with a free-form drag-and-drop builder. Next.js, Prisma, dnd-kit." width="49%"> <img src="assets/card-peopleos.svg?v=2" alt="PeopleOS — HR operating system with GPS time-clock, scheduling, hiring ATS and training. React, Express, PostgreSQL." width="49%">
 
 <details>
 <summary><b>How the portfolio chatbot actually works</b> — and the 49s → 2s story</summary>
@@ -104,7 +104,7 @@ points.
 
 <br>
 
-<img src="assets/skills.svg" alt="Stack: React, Next.js, TypeScript and Tailwind on the frontend; Node.js, Express, NestJS, REST, JWT and OAuth 2.0 on the backend; PostgreSQL, Redis and Supabase for data; Gemini, OpenAI, prompt design and document retrieval for AI; Cloudflare, Vercel, Azure Functions, GitHub Actions and Docker for infrastructure. Microsoft Certified Azure AI Fundamentals." width="100%">
+<img src="assets/skills.svg?v=2" alt="Stack: React, Next.js, TypeScript and Tailwind on the frontend; Node.js, Express, NestJS, REST, JWT and OAuth 2.0 on the backend; PostgreSQL, Redis and Supabase for data; Gemini, OpenAI, prompt design and document retrieval for AI; Cloudflare, Vercel, Azure Functions, GitHub Actions and Docker for infrastructure. Microsoft Certified Azure AI Fundamentals." width="100%">
 
 </details>
 
