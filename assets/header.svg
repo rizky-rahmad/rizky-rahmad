@@ -1,164 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Rahmad Rizki — Full Stack Web Developer and AI Implementation Specialist">
-  <title>Rahmad Rizki — Full Stack Web Developer &amp; AI Implementation Specialist</title>
-
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0a0a0f"/>
-      <stop offset="60%" stop-color="#0c1116"/>
-      <stop offset="100%" stop-color="#0a1414"/>
-    </linearGradient>
-
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2dd4bf"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
-    </linearGradient>
-
-    <linearGradient id="sweepFade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#2dd4bf" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="55%" stop-color="#e8fbf8"/>
-      <stop offset="100%" stop-color="#7fe9dc"/>
-    </linearGradient>
-
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2dd4bf" stroke-opacity="0.07" stroke-width="1"/>
-    </pattern>
-
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
-    </radialGradient>
-
-    <clipPath id="card"><rect x="0" y="0" width="1200" height="300" rx="16"/></clipPath>
-
-    <!-- One window per phrase; each types, holds, then clears its slot. -->
-    <clipPath id="win0">
-      <rect x="72" y="176" width="0" height="30">
-        <animate attributeName="width" values="0;0;340;340;0;0"
-                 keyTimes="0;0.0000;0.0750;0.2800;0.3250;1" dur="21s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
-    <clipPath id="win1">
-      <rect x="72" y="176" width="0" height="30">
-        <animate attributeName="width" values="0;0;392;392;0;0"
-                 keyTimes="0;0.3333;0.4083;0.6133;0.6583;1" dur="21s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
-    <clipPath id="win2">
-      <rect x="72" y="176" width="0" height="30">
-        <animate attributeName="width" values="0;0;378;378;0;0"
-                 keyTimes="0;0.6667;0.7417;0.9467;0.9917;1" dur="21s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
-
-    <style>
-      .sweep   { animation: sweep 9s ease-in-out infinite; }
-      .pulse   { animation: pulse 2.6s ease-in-out infinite; }
-      .pulse-b { animation: pulse 2.6s ease-in-out infinite; animation-delay: .9s; }
-      .pulse-c { animation: pulse 2.6s ease-in-out infinite; animation-delay: 1.8s; }
-      .caret   { animation: blink 1s steps(1) infinite; }
-      .drift   { animation: drift 18s linear infinite; }
-      .rise-1  { animation: rise 11s linear infinite; }
-      .rise-2  { animation: rise 14s linear infinite; animation-delay: 3s; }
-      .rise-3  { animation: rise 9s  linear infinite; animation-delay: 6s; }
-
-      @keyframes sweep { 0%,100% { transform: translateX(-380px); } 50% { transform: translateX(1240px); } }
-      @keyframes pulse { 0%,100% { opacity:.25; } 50% { opacity:1; } }
-      @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
-      @keyframes drift { from { transform: translateY(0); } to { transform: translateY(-40px); } }
-      @keyframes rise {
-        0%   { transform: translateY(40px); opacity: 0; }
-        12%  { opacity: .9; }
-        88%  { opacity: .9; }
-        100% { transform: translateY(-300px); opacity: 0; }
-      }
-
-      /* A banner should never fight someone who asked their system to calm down. */
-      @media (prefers-reduced-motion: reduce) {
-        .sweep,.pulse,.pulse-b,.pulse-c,.caret,.drift,.rise-1,.rise-2,.rise-3 { animation: none; }
-        [id^='win'] rect { width: 400px; }
-      }
-    </style>
-  </defs>
-
-  <g clip-path="url(#card)">
-    <rect width="1200" height="300" fill="url(#bg)"/>
-    <g class="drift"><rect x="0" y="0" width="1200" height="380" fill="url(#grid)"/></g>
-    <ellipse cx="960" cy="150" rx="420" ry="260" fill="url(#glow)"/>
-
-    <!-- particles drifting upward on the right, behind the text -->
-    <g fill="#2dd4bf" opacity="0.55">
-      <circle class="rise-1" cx="880"  cy="300" r="1.8"/>
-      <circle class="rise-2" cx="1010" cy="300" r="1.4"/>
-      <circle class="rise-3" cx="1120" cy="300" r="2"/>
-    </g>
-
-
-
-    <g class="sweep"><rect x="0" y="0" width="380" height="300" fill="url(#sweepFade)" opacity="0.5"/></g>
-
-    <g transform="translate(72, 64)">
-      <circle cx="0" cy="-4" r="4" fill="#2dd4bf" class="pulse"/>
-      <circle cx="16" cy="-4" r="4" fill="#22d3ee" class="pulse-b"/>
-      <circle cx="32" cy="-4" r="4" fill="#2dd4bf" class="pulse-c"/>
-      <text x="52" y="1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#5eead4" letter-spacing="2.5">AVAILABLE FOR NEW OPPORTUNITIES</text>
-    </g>
-
-    <text x="72" y="150" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="62" font-weight="700" fill="url(#nameFill)" letter-spacing="-1.5">
-      Rahmad Rizki
-    </text>
-
-    <!-- role line: three phrases sharing one line, one at a time -->
-    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21">
-      <text x="72" y="196" fill="#6f9494">&gt;</text>
-      <g clip-path="url(#win0)">
-        <text x="72" y="196" fill="#7dd3d3"><tspan fill="#6f9494">&gt;&#160;</tspan>Full Stack Web Developer</text>
-      </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1;0;0"
-                 keyTimes="0;0.0000;0.0000;0.3250;0.3270;1" dur="21s" repeatCount="indefinite"/>
-        <rect y="178" width="11" height="22" fill="#2dd4bf" class="caret">
-          <animate attributeName="x" values="86;86;412;412;86;86"
-                   keyTimes="0;0.0000;0.0750;0.2800;0.3250;1" dur="21s" repeatCount="indefinite"/>
-        </rect>
-      </g>
-      <g clip-path="url(#win1)">
-        <text x="72" y="196" fill="#7dd3d3"><tspan fill="#6f9494">&gt;&#160;</tspan>AI Implementation Specialist</text>
-      </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1;0;0"
-                 keyTimes="0;0.3313;0.3333;0.6583;0.6603;1" dur="21s" repeatCount="indefinite"/>
-        <rect y="178" width="11" height="22" fill="#2dd4bf" class="caret">
-          <animate attributeName="x" values="86;86;464;464;86;86"
-                   keyTimes="0;0.3333;0.4083;0.6133;0.6583;1" dur="21s" repeatCount="indefinite"/>
-        </rect>
-      </g>
-      <g clip-path="url(#win2)">
-        <text x="72" y="196" fill="#7dd3d3"><tspan fill="#6f9494">&gt;&#160;</tspan>I measure before I optimise</text>
-      </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1;0;0"
-                 keyTimes="0;0.6647;0.6667;0.9917;0.9937;1" dur="21s" repeatCount="indefinite"/>
-        <rect y="178" width="11" height="22" fill="#2dd4bf" class="caret">
-          <animate attributeName="x" values="86;86;450;450;86;86"
-                   keyTimes="0;0.6667;0.7417;0.9467;0.9917;1" dur="21s" repeatCount="indefinite"/>
-        </rect>
-      </g>
-    </g>
-
-    <line x1="72" y1="224" x2="1128" y2="224" stroke="#1e3535" stroke-width="1"/>
-
-    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#a9cfcb">
-      <text x="72" y="258">Node.js<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>React<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>Next.js<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>TypeScript<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>PostgreSQL<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>Azure<tspan fill="#4a6e6e">&#160;&#160;/&#160;&#160;</tspan>Gemini</text>
-      <text x="1128" y="258" text-anchor="end" fill="#8fb5b1">Ubud, Bali, ID</text>
-    </g>
-
-    <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="none" stroke="#1c3333" stroke-width="1"/>
-    <rect x="0" y="0" width="4" height="300" fill="url(#accent)"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" width="640" height="150" role="img" aria-label="Rahmad Rizki, full-stack developer building AI systems in production at PT Unicorn, Ubud, Bali">
+  <style>
+    .h-t{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+    .h-line{stroke-dasharray:240;stroke-dashoffset:240;animation:h-draw 1.2s .3s ease-out forwards}
+    .h-pulse{transform-origin:574px 50px;animation:h-pulse 2s ease-out infinite}
+    @keyframes h-draw{to{stroke-dashoffset:0}}
+    @keyframes h-pulse{0%{transform:scale(1);opacity:.6}100%{transform:scale(3);opacity:0}}
+    @media (prefers-reduced-motion:reduce){.h-line{animation:none;stroke-dashoffset:0}.h-pulse{animation:none}}
+  </style>
+  <rect width="640" height="150" rx="16" fill="#0d1520" stroke="#1e2a38"/>
+  <text x="28" y="60" class="h-t" font-size="36" font-weight="700" fill="#f8fafc">Rahmad Rizki</text>
+  <line x1="28" y1="76" x2="268" y2="76" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round" class="h-line"/>
+  <text x="28" y="106" class="h-t" font-size="19" fill="#2dd4bf">Full-stack developer · AI in production</text>
+  <text x="28" y="132" class="h-t" font-size="15" fill="#94a3b8">PT Unicorn · Ubud, Bali</text>
+  <circle cx="574" cy="50" r="5" fill="#22c55e" class="h-pulse"/>
+  <circle cx="574" cy="50" r="5" fill="#22c55e"/>
+  <text x="586" y="55" class="h-t" font-size="14" fill="#cbd5e1">live</text>
 </svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" width="640" height="350" role="img" aria-label="Unicorn CMS: staff build brand websites by dragging blocks onto the page, then publish. One editor for every brand, on every device, with version history.">
+  <style>
+    .m-t{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+    .m-drag{animation:m-drag 6s ease-in-out infinite}
+    .m-slot{animation:m-slot 6s infinite}
+    .m-fill{animation:m-fill 6s infinite}
+    .m-pub{animation:m-pub 6s infinite}
+    .m-live{animation:m-live 6s infinite}
+    @keyframes m-drag{0%,8%{transform:translate(0,0);opacity:0}12%{opacity:1;transform:translate(0,0)}38%{transform:translate(184px,72px);opacity:1}44%,100%{transform:translate(184px,72px);opacity:0}}
+    @keyframes m-slot{0%,40%{opacity:1}44%,100%{opacity:0}}
+    @keyframes m-fill{0%,40%{opacity:0}46%,92%{opacity:1}100%{opacity:0}}
+    @keyframes m-pub{0%,55%{opacity:1}60%,92%{opacity:0}100%{opacity:1}}
+    @keyframes m-live{0%,55%{opacity:0}60%,92%{opacity:1}100%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.m-drag,.m-slot,.m-pub{animation:none;opacity:0}.m-fill,.m-live{animation:none;opacity:1}}
+  </style>
+  <rect width="640" height="350" rx="16" fill="#0d1520" stroke="#1e2a38"/>
+  <text x="28" y="48" class="m-t" font-size="26" font-weight="700" fill="#f8fafc">Unicorn CMS</text>
+  <text x="28" y="76" class="m-t" font-size="16" fill="#9fb0c3">Brand websites, built by drag &amp; drop.</text>
+
+  <!-- block palette -->
+  <g class="m-t" font-size="14" fill="#e2e8f0">
+    <rect x="28" y="104" width="120" height="40" rx="9" fill="#151a2e" stroke="#2e2a52"/><text x="46" y="129">Text</text>
+    <rect x="28" y="152" width="120" height="40" rx="9" fill="#151a2e" stroke="#a78bfa"/><text x="46" y="177">Image</text>
+    <rect x="28" y="200" width="120" height="40" rx="9" fill="#151a2e" stroke="#2e2a52"/><text x="46" y="225">Gallery</text>
+    <rect x="28" y="248" width="120" height="40" rx="9" fill="#151a2e" stroke="#2e2a52"/><text x="46" y="273">Form</text>
+  </g>
+
+  <!-- browser -->
+  <rect x="176" y="104" width="436" height="192" rx="12" fill="#0a111a" stroke="#334155" stroke-width="1.5"/>
+  <path d="M176 130 h436" stroke="#1e2a38"/>
+  <g fill="#334155"><circle cx="192" cy="117" r="4"/><circle cx="206" cy="117" r="4"/><circle cx="220" cy="117" r="4"/></g>
+  <g class="m-pub"><rect x="530" y="109" width="72" height="17" rx="8.5" fill="#2e2a52"/><text x="566" y="121.5" class="m-t" font-size="11" fill="#c4b5fd" text-anchor="middle">Publish</text></g>
+  <g class="m-live"><rect x="530" y="109" width="72" height="17" rx="8.5" fill="#14532d"/><text x="566" y="121.5" class="m-t" font-size="11" font-weight="600" fill="#86efac" text-anchor="middle">Live ✓</text></g>
+
+  <rect x="192" y="142" width="404" height="54" rx="8" fill="#a78bfa" fill-opacity=".14"/>
+  <rect x="208" y="156" width="150" height="10" rx="5" fill="#a78bfa" fill-opacity=".6"/>
+  <rect x="208" y="174" width="100" height="8" rx="4" fill="#475569"/>
+  <rect x="404" y="208" width="192" height="76" rx="8" fill="#1b2533"/>
+  <rect x="418" y="224" width="130" height="8" rx="4" fill="#475569"/><rect x="418" y="240" width="150" height="8" rx="4" fill="#334155"/><rect x="418" y="256" width="96" height="8" rx="4" fill="#334155"/>
+
+  <g class="m-slot"><rect x="192" y="208" width="200" height="76" rx="8" fill="none" stroke="#a78bfa" stroke-dasharray="6 5"/><text x="292" y="251" class="m-t" font-size="13" fill="#8b7fc7" text-anchor="middle">drop here</text></g>
+  <g class="m-fill"><rect x="192" y="208" width="200" height="76" rx="8" fill="#a78bfa" fill-opacity=".22"/><path d="M226 270 l30-34 l22 24 l14-14 l26 24 z" fill="#a78bfa" fill-opacity=".7"/><circle cx="340" cy="228" r="8" fill="#fde68a"/></g>
+
+  <!-- the dragged block -->
+  <g class="m-drag"><rect x="28" y="152" width="120" height="40" rx="9" fill="#2e2a52" stroke="#a78bfa" stroke-width="2"/><text x="46" y="177" class="m-t" font-size="14" fill="#f8fafc">Image</text><path d="M128 178 l0 14 l4-4 l3 7 l3-1 l-3-7 l6 0 z" fill="#f8fafc"/></g>
+
+  <line x1="28" y1="308" x2="612" y2="308" stroke="#1e2a38"/>
+  <text x="28" y="330" class="m-t" font-size="14" fill="#cbd5e1">Every brand · every screen size · version history</text>
+</svg>

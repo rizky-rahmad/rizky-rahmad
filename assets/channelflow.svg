@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 450" width="640" height="450" role="img" aria-label="Channelflow: guests message on WhatsApp, Instagram, Email, TikTok or, in pilot, by voice call; the AI replies and books the table; staff see it in their app. 119 bookings a day, 3,557 a month; 591 messages a day, 17,737 a month; 94 percent of replies written by the AI. Production, September 2026.">
+  <style>
+    .c-t{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+    .c-ring{transform-origin:318px 217px;animation:c-ring 2s ease-out infinite}
+    .c-pill{animation:c-pill 10s infinite}
+    .c-p2{animation-delay:2s}.c-p3{animation-delay:4s}.c-p4{animation-delay:6s}.c-p5{animation-delay:8s}
+    .c-flash{animation:c-flash 2s infinite}
+    .c-plus{animation:c-plus 2s infinite}
+    @keyframes c-ring{0%{transform:scale(1);opacity:.5}100%{transform:scale(1.6);opacity:0}}
+    @keyframes c-pill{0%,14%{stroke:#2dd4bf}20%,100%{stroke:#233041}}
+    @keyframes c-flash{0%,74%{fill-opacity:0}80%{fill-opacity:.35}100%{fill-opacity:0}}
+    @keyframes c-plus{0%,76%{opacity:0;transform:translateY(0)}82%{opacity:1}100%{opacity:0;transform:translateY(-14px)}}
+    @media (prefers-reduced-motion:reduce){.c-ring,.c-pill,.c-flash,.c-plus{animation:none}}
+  </style>
+  <rect width="640" height="450" rx="16" fill="#0d1520" stroke="#1e2a38"/>
+  <text x="28" y="48" class="c-t" font-size="26" font-weight="700" fill="#f8fafc">Channelflow</text>
+  <text x="612" y="46" class="c-t" font-size="12" fill="#64748b" text-anchor="end">live · production</text>
+  <text x="28" y="76" class="c-t" font-size="16" fill="#9fb0c3">Guests message or call. AI replies and books the table.</text>
+
+  <!-- wires -->
+  <g fill="none" stroke="#233041" stroke-width="2">
+    <path d="M178 129 C230 129 240 217 276 217"/><path d="M178 173 C230 173 240 217 276 217"/>
+    <path d="M178 217 L276 217"/><path d="M178 261 C230 261 240 217 276 217"/>
+    <path d="M178 305 C230 305 240 217 276 217"/><path d="M360 217 L452 217"/>
+  </g>
+
+  <!-- channels -->
+  <g class="c-t" font-size="15" fill="#e2e8f0">
+    <rect x="28" y="112" width="150" height="34" rx="17" fill="#111c28" stroke="#233041" stroke-width="2" class="c-pill"/><circle cx="48" cy="129" r="6" fill="#25d366"/><text x="62" y="134">WhatsApp</text>
+    <rect x="28" y="156" width="150" height="34" rx="17" fill="#111c28" stroke="#233041" stroke-width="2" class="c-pill c-p2"/><circle cx="48" cy="173" r="6" fill="#e1306c"/><text x="62" y="178">Instagram</text>
+    <rect x="28" y="200" width="150" height="34" rx="17" fill="#111c28" stroke="#233041" stroke-width="2" class="c-pill c-p3"/><circle cx="48" cy="217" r="6" fill="#60a5fa"/><text x="62" y="222">Email</text>
+    <rect x="28" y="244" width="150" height="34" rx="17" fill="#111c28" stroke="#233041" stroke-width="2" class="c-pill c-p4"/><circle cx="48" cy="261" r="6" fill="#f1f5f9"/><text x="62" y="266">TikTok</text>
+    <rect x="28" y="288" width="150" height="34" rx="17" fill="#111c28" stroke="#233041" stroke-width="2" class="c-pill c-p5"/><circle cx="48" cy="305" r="6" fill="#f59e0b"/><text x="62" y="310">Voice <tspan fill="#64748b" font-size="12">pilot</tspan></text>
+  </g>
+
+  <!-- AI -->
+  <circle cx="318" cy="217" r="42" fill="none" stroke="#2dd4bf" stroke-width="2" class="c-ring"/>
+  <circle cx="318" cy="217" r="42" fill="#0b2626" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="318" y="225" class="c-t" font-size="22" font-weight="700" fill="#2dd4bf" text-anchor="middle">AI</text>
+  <text x="318" y="282" class="c-t" font-size="13" fill="#94a3b8" text-anchor="middle">any language</text>
+
+  <!-- staff app -->
+  <rect x="452" y="104" width="160" height="220" rx="22" fill="#0a111a" stroke="#334155" stroke-width="2"/>
+  <rect x="510" y="112" width="44" height="5" rx="2.5" fill="#334155"/>
+  <text x="532" y="140" class="c-t" font-size="13" fill="#94a3b8" text-anchor="middle">Staff app</text>
+  <rect x="468" y="152" width="128" height="40" rx="9" fill="#22c55e" class="c-flash"/>
+  <rect x="468" y="152" width="128" height="40" rx="9" fill="none" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="480" y="177" class="c-t" font-size="14" fill="#f8fafc">4 · 19:00</text>
+  <path d="M572 172 l5 5 l9 -10" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#1b2533"><rect x="468" y="202" width="128" height="34" rx="9"/><rect x="468" y="244" width="128" height="34" rx="9"/></g>
+  <g fill="#334155"><rect x="480" y="215" width="70" height="8" rx="4"/><rect x="480" y="257" width="52" height="8" rx="4"/></g>
+  <text x="604" y="150" class="c-t c-plus" font-size="14" font-weight="700" fill="#22c55e" text-anchor="end">+1</text>
+  <text x="532" y="306" class="c-t" font-size="12" fill="#64748b" text-anchor="middle">bookings · chats</text>
+
+  <!-- messages travelling: channel -> AI -> booking -->
+  <g fill="#2dd4bf">
+    <circle r="5" opacity="0"><animateMotion dur="10s" begin="0s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.16;1" calcMode="linear" path="M178 129 C230 129 240 217 276 217 L452 217 Q500 217 532 172"/><animate attributeName="opacity" dur="10s" begin="0s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.16;0.17;1"/></circle>
+    <circle r="5" opacity="0"><animateMotion dur="10s" begin="2s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.16;1" calcMode="linear" path="M178 173 C230 173 240 217 276 217 L452 217 Q500 217 532 172"/><animate attributeName="opacity" dur="10s" begin="2s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.16;0.17;1"/></circle>
+    <circle r="5" opacity="0"><animateMotion dur="10s" begin="4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.16;1" calcMode="linear" path="M178 217 L452 217 Q500 217 532 172"/><animate attributeName="opacity" dur="10s" begin="4s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.16;0.17;1"/></circle>
+    <circle r="5" opacity="0"><animateMotion dur="10s" begin="6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.16;1" calcMode="linear" path="M178 261 C230 261 240 217 276 217 L452 217 Q500 217 532 172"/><animate attributeName="opacity" dur="10s" begin="6s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.16;0.17;1"/></circle>
+    <circle r="5" opacity="0"><animateMotion dur="10s" begin="8s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.16;1" calcMode="linear" path="M178 305 C230 305 240 217 276 217 L452 217 Q500 217 532 172"/><animate attributeName="opacity" dur="10s" begin="8s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.16;0.17;1"/></circle>
+  </g>
+
+  <!-- production numbers -->
+  <line x1="28" y1="350" x2="612" y2="350" stroke="#1e2a38"/>
+  <g class="c-t">
+    <text x="28" y="390" font-size="30" font-weight="700" fill="#2dd4bf">119</text>
+    <text x="28" y="412" font-size="14" fill="#cbd5e1">bookings a day</text>
+    <text x="28" y="432" font-size="13" fill="#64748b">3,557 a month</text>
+    <text x="236" y="390" font-size="30" font-weight="700" fill="#2dd4bf">591</text>
+    <text x="236" y="412" font-size="14" fill="#cbd5e1">messages a day</text>
+    <text x="236" y="432" font-size="13" fill="#64748b">17,737 a month</text>
+    <text x="444" y="390" font-size="30" font-weight="700" fill="#2dd4bf">94%</text>
+    <text x="444" y="412" font-size="14" fill="#cbd5e1">replies by the AI</text>
+    <text x="444" y="432" font-size="13" fill="#64748b">staff take the rest</text>
+  </g>
+</svg>
