@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 510" width="640" height="510" role="img" aria-label="Restaurant booking AI (Channelflow): guests message on WhatsApp, Instagram, Email, TikTok or, in pilot, by voice call; the AI replies and books the table; staff see it in their app. 119 bookings a day, 3,557 a month; 591 messages a day, 17,737 a month; about 400 guest replies a day written by the AI. Production, September 2026. A PT Unicorn team project; I work on the AI agent, the voice agent and the staff app.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 510" width="640" height="510" role="img" aria-label="Restaurant booking AI (Channelflow): guests message on WhatsApp, Instagram, Email, TikTok or, in pilot, by voice call; the AI replies and books the table; staff see it in their app. 119 bookings a day, 3,557 a month; 591 messages a day, 17,737 a month; about 400 guest replies a day written by the AI. Production, September 2026. Built together with the PT Unicorn team.">
   <style>
     .c-t{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
     .c-ring{transform-origin:318px 217px;animation:c-ring 2s ease-out infinite}
@@ -75,6 +75,6 @@
     <text x="444" y="432" font-size="14" fill="#64748b">no staff needed</text>
   </g>
   <line x1="28" y1="452" x2="612" y2="452" stroke="#1e2a38"/>
-  <text x="28" y="478" class="c-t" font-size="15" fill="#e2e8f0">PT Unicorn team · <tspan fill="#2dd4bf">I work on the AI agent, voice agent &amp; staff app</tspan></text>
+  <text x="28" y="478" class="c-t" font-size="15" fill="#e2e8f0">Built together with the <tspan fill="#2dd4bf">PT Unicorn team</tspan></text>
   <text x="28" y="498" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#64748b">Next.js · Hono · Mastra · BullMQ · Postgres · Expo · LiveKit</text>
 </svg>
