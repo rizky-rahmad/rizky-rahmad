@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CV - Rahmad Rizki</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 14mm 14mm 14mm 14mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 9.4pt/1.45 Arial, Helvetica, sans-serif; color: #1a1a1a; }
+  header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10pt; }
+  h1 { font: 700 25pt/1 "Space Grotesk", Arial, sans-serif; margin: 0; letter-spacing: -.3pt; }
+  .role { font-size: 12pt; letter-spacing: .6pt; text-transform: uppercase; }
+  section { padding: 8pt 0; border-top: 1px solid #222; break-inside: auto; }
+  section:first-of-type { border-top: 0; padding-top: 0; }
+  h2 { font: 700 9.5pt/1.3 Arial, sans-serif; text-transform: uppercase; margin: 0 0 4pt; letter-spacing: .6pt; }
+  h3 { font-size: 9.8pt; font-weight: 700; margin: 0; }
+  .item { break-inside: avoid; }
+  .item + .item { margin-top: 8pt; }
+  .meta { color: #444; }
+  .stack { margin: 1pt 0 2pt; }
+  .stack b, .contact b { font-weight: 700; }
+  ul { margin: 2pt 0 0; padding-left: 13pt; }
+  li { margin: 1pt 0; }
+  p { margin: 0; }
+  a { color: inherit; }
+  .contact span + span::before { content: " · "; }
+  .skills li { margin: 1.5pt 0; }
+  .sub { margin-top: 5pt; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Rahmad Rizki</h1>
+  <div class="role">Full Stack Developer · AI Products</div>
+</header>
+
+<section>
+  <h2>Contact</h2>
+  <p class="contact"><span>+62 823 6543 4655</span><span>rizky.business7@gmail.com</span><span>Ubud, Bali, Indonesia</span><br><span><a href="https://rizky-portfolio.pages.dev"><span style="white-space:nowrap">rizky-portfolio</span>.pages.dev</a></span><span><a href="https://github.com/rizky-rahmad">github.com/<span style="white-space:nowrap">rizky-rahmad</span></a></span><span><a href="https://linkedin.com/in/rahmad-rizki-1728a6186">linkedin.com/in/<span style="white-space:nowrap">rahmad-rizki-1728a6186</span></a></span></p>
+</section>
+
+<section>
+  <h2>Professional Summary</h2>
+  <p>Full Stack Developer at PT Unicorn, building AI products that a Bali restaurant group runs on every day: an AI agent that answers guests and books tables across WhatsApp, Instagram, Email and TikTok (about 3,500 bookings and 17,700 messages a month), an HR platform used by 154 employees, and a <span style="white-space:nowrap">multi-brand</span> website builder. Works across the whole stack (Next.js, React Native, Node.js, PostgreSQL) and puts language models into production with guardrails, human handoff and measured results. Uses Claude Code daily to move faster, and verifies every change with tests and production data. Microsoft Certified in Azure AI Fundamentals.</p>
+</section>
+
+<section>
+  <h2>Key Skills</h2>
+  <ul class="skills">
+    <li><b><span style="white-space:nowrap">Front-End</span>:</b> JavaScript (ES6+), TypeScript, HTML5, CSS3, React, Next.js, Tailwind CSS, Vite, responsive design</li>
+    <li><b>Mobile:</b> React Native, Expo, <span style="white-space:nowrap">over-the-air</span> updates</li>
+    <li><b><span style="white-space:nowrap">Back-End</span>:</b> Node.js, Hono, Express, NestJS, REST APIs, Socket.IO, BullMQ, JWT, OAuth 2.0</li>
+    <li><b>Data:</b> PostgreSQL, Drizzle ORM, Prisma, Redis, Supabase</li>
+    <li><b>AI:</b> Mastra agents, OpenRouter, Gemini, OpenAI (Whisper), RAG, LiveKit voice agents, prompt design</li>
+    <li><b><span style="white-space:nowrap">AI-Assisted</span> Development:</b> Claude Code for daily engineering (planning, debugging, refactoring, code review), with every change checked by tests and measurement</li>
+    <li><b>DevOps &amp; Testing:</b> Docker, Coolify, Cloudflare, Vercel, GitHub Actions, Vitest, Playwright, Git</li>
+    <li><b>Design:</b> UI/UX fundamentals, Figma, Adobe Photoshop, Adobe Illustrator</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Professional Experience</h2>
+  <div>
+    <div class="item">
+      <h3>Full Stack Developer | Jun 2026 – Present</h3>
+      <p class="meta">PT Unicorn · Ubud, Bali</p>
+      <p>Part of a small product team building the internal systems behind a group of restaurants and brands.</p>
+
+      <p class="sub">Channelflow: guest messaging and AI booking platform</p>
+      <p class="stack"><b>Stack</b>: Next.js, Hono, Mastra, BullMQ, PostgreSQL, Drizzle, Expo, LiveKit</p>
+      <ul>
+        <li><span style="white-space:nowrap">Co-developed</span> one inbox for WhatsApp, Instagram, Email and TikTok, where an AI agent answers guests in their own language and books tables; in production it handles ~119 bookings and ~590 messages a day.</li>
+        <li>The AI writes ~400 guest replies a day and hands chats to staff on allergies, complaints and <span style="white-space:nowrap">low-confidence</span> answers, with a second model checking before it continues.</li>
+        <li>Contributed to the message pipeline’s reliability: queued processing with retries, handoff to a human after a crash, <span style="white-space:nowrap">voice-note</span> transcription and photo understanding.</li>
+        <li><span style="white-space:nowrap">Co-developed</span> a staff Android app (Expo) for bookings with day, list and month views and analytics, and a voice booking agent now in pilot.</li>
+      </ul>
+
+      <p class="sub">PeopleOS: HR platform</p>
+      <p class="stack"><b>Stack</b>: React, Express, PostgreSQL, Drizzle, React Native (Expo)</p>
+      <ul>
+        <li>Contributed to the HR platform used by 154 employees for hiring, training, scheduling, GPS <span style="white-space:nowrap">clock-in</span> and leave; focus on the mobile app, leave requests and approvals.</li>
+      </ul>
+
+      <p class="sub">Unicorn CMS: <span style="white-space:nowrap">multi-brand</span> website builder</p>
+      <p class="stack"><b>Stack</b>: Next.js, Hono, PostgreSQL, Drizzle, Tiptap, Playwright</p>
+      <ul>
+        <li>Developing a <span style="white-space:nowrap">drag-and-drop</span> page builder for every brand site: 20+ elements, <span style="white-space:nowrap">per-device</span> layouts, version history, SEO and tracking, covered by <span style="white-space:nowrap">end-to-end</span> tests.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h3>Website Developer &amp; IT Support | 2022 – 2024</h3>
+      <p class="meta">Aceh Besar Prosecutor’s Office</p>
+      <ul>
+        <li>Maintained the WordPress public website and produced digital assets (banners, videos, infographics).</li>
+        <li>Provided technical support and troubleshooting for staff.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h3>Office Administrator &amp; IT Support | 2021</h3>
+      <p class="meta">DS&amp;AI Syiah Kuala University</p>
+      <ul><li>Resolved staff and student IT issues within 24 hours and assisted with digital content.</li></ul>
+    </div>
+
+    <div class="item">
+      <h3>Website Developer | 2019</h3>
+      <p class="meta"><span style="white-space:nowrap">AGC-Scopus</span> 2019 – The 2nd Aceh Global Conference</p>
+      <ul><li>Designed and managed the conference website for 100+ attendees, with live updates during the event.</li></ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div>
+    <div class="item">
+      <h3>Portfolio with AI Assistant</h3>
+      <p class="meta"><a href="https://rizky-portfolio.pages.dev"><span style="white-space:nowrap">rizky-portfolio</span>.pages.dev</a> · Next.js, Gemini, Cloudflare, GitHub Actions</p>
+      <ul>
+        <li>An assistant that answers visitors’ questions about my background in English or Indonesian; cut reply time from ~49 s to ~2 s by reading the résumé once when it changes instead of on every message.</li>
+        <li>Raised mobile PageSpeed from 90 to 98 (LCP 1,536 ms → 508 ms) after finding the metric was waiting on a CSS <span style="white-space:nowrap">fade-in</span>.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Online Complaint Management System – BPSDM Aceh (SIKEMAS)</h3>
+      <p class="meta"><a href="https://sikemasbpsdm.web.id">sikemasbpsdm.web.id</a> · React, Node.js, Express, PostgreSQL, JWT, Google OAuth 2.0</p>
+      <ul>
+        <li>Production complaint platform with ticket tracking, <span style="white-space:nowrap">multi-role</span> access (User, Department Admin, Superadmin), audit logs and an analytics dashboard.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Online Attendance System – BPSDM Aceh</h3>
+      <p class="meta">React, Node.js, Express, PostgreSQL, JWT</p>
+      <ul><li>Attendance with <span style="white-space:nowrap">role-based</span> access, one <span style="white-space:nowrap">check-in</span> per day per employee, and daily and monthly reports with <span style="white-space:nowrap">server-side</span> filtering.</li></ul>
+    </div>
+    <div class="item">
+      <h3>ApplyMate AI</h3>
+      <p class="meta"><a href="https://apply-mate-ai-nine.vercel.app"><span style="white-space:nowrap">apply-mate-ai-nine</span>.vercel.app</a> · Next.js, TypeScript, Gemini</p>
+      <ul><li>Turns a résumé and a job posting into a match analysis and a tailored cover letter.</li></ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Education &amp; Certifications</h2>
+  <div>
+    <div class="item">
+      <h3>Microsoft Certified: Azure AI Fundamentals</h3>
+    </div>
+    <div class="item">
+      <h3>Syiah Kuala University, Banda Aceh | 2016 – 2021</h3>
+      <p>Diploma III in Informatics Management · GPA 3.18</p>
+    </div>
+    <div class="item">
+      <h3><span style="white-space:nowrap">Full-Stack</span> Web Developer Bootcamp | Udemy | Dr. Angela Yu</h3>
+      <p>JavaScript (ES6), Node.js, Express, APIs, Git, PostgreSQL</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Languages</h2>
+  <p>English: Proficient · Bahasa Indonesia: Native</p>
+</section>
+
+</body>
+</html>
