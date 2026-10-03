@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="44" viewBox="0 0 128 44" role="img" aria-label="CV">
+  <title>CV</title>
+  <rect x="0.5" y="0.5" width="127" height="43" rx="8" fill="#2dd4bf"/>
+  <g transform="translate(20, 14)" fill="none" stroke="#06201d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="scale(0.68)"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></g>
+  </g>
+  <text x="44" y="27" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" letter-spacing="1.6" fill="#06201d">MY CV</text>
+</svg>

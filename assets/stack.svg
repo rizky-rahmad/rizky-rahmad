@@ -8,41 +8,40 @@
     @media (prefers-reduced-motion:reduce){.s-c{animation:none;opacity:1}}
   </style>
   <rect width="640" height="362" rx="16" fill="#0d1520" stroke="#1e2a38"/>
-  <text x="28" y="48" class="s-t" font-size="26" font-weight="700" fill="#f8fafc">What I build with</text>
-  <circle cx="452" cy="42" r="5" fill="none" stroke="#2dd4bf"/><text x="464" y="47" class="s-t" font-size="12" fill="#64748b">new this year</text>
+  <text x="28" y="48" class="s-t" font-size="26" font-weight="700" fill="#f8fafc">Everything I use</text>
     <text x="28" y="105" class="s-t" font-size="13" fill="#64748b">Interface</text>
   <g class="s-c" style="animation-delay:0.0s"><rect x="104" y="84" width="87" height="30" rx="15"/><text x="147.5" y="104" class="s-t" font-size="13" text-anchor="middle">TypeScript</text></g>
   <g class="s-c" style="animation-delay:0.0s"><rect x="197" y="84" width="52" height="30" rx="15"/><text x="223.0" y="104" class="s-t" font-size="13" text-anchor="middle">React</text></g>
   <g class="s-c" style="animation-delay:0.0s"><rect x="255" y="84" width="66" height="30" rx="15"/><text x="288.0" y="104" class="s-t" font-size="13" text-anchor="middle">Next.js</text></g>
-  <g class="s-c s-new" style="animation-delay:0.0s"><rect x="327" y="84" width="149" height="30" rx="15"/><text x="401.5" y="104" class="s-t" font-size="13" text-anchor="middle">React Native · Expo</text></g>
+  <g class="s-c" style="animation-delay:0.0s"><rect x="327" y="84" width="149" height="30" rx="15"/><text x="401.5" y="104" class="s-t" font-size="13" text-anchor="middle">React Native · Expo</text></g>
   <g class="s-c" style="animation-delay:0.0s"><rect x="482" y="84" width="73" height="30" rx="15"/><text x="518.5" y="104" class="s-t" font-size="13" text-anchor="middle">Tailwind</text></g>
   <text x="28" y="151" class="s-t" font-size="13" fill="#64748b">Server</text>
   <g class="s-c" style="animation-delay:0.5s"><rect x="104" y="130" width="66" height="30" rx="15"/><text x="137.0" y="150" class="s-t" font-size="13" text-anchor="middle">Node.js</text></g>
-  <g class="s-c s-new" style="animation-delay:0.5s"><rect x="176" y="130" width="46" height="30" rx="15"/><text x="199.0" y="150" class="s-t" font-size="13" text-anchor="middle">Hono</text></g>
+  <g class="s-c" style="animation-delay:0.5s"><rect x="176" y="130" width="46" height="30" rx="15"/><text x="199.0" y="150" class="s-t" font-size="13" text-anchor="middle">Hono</text></g>
   <g class="s-c" style="animation-delay:0.5s"><rect x="228" y="130" width="66" height="30" rx="15"/><text x="261.0" y="150" class="s-t" font-size="13" text-anchor="middle">Express</text></g>
   <g class="s-c" style="animation-delay:0.5s"><rect x="300" y="130" width="59" height="30" rx="15"/><text x="329.5" y="150" class="s-t" font-size="13" text-anchor="middle">NestJS</text></g>
-  <g class="s-c s-new" style="animation-delay:0.5s"><rect x="365" y="130" width="80" height="30" rx="15"/><text x="405.0" y="150" class="s-t" font-size="13" text-anchor="middle">Socket.IO</text></g>
-  <g class="s-c s-new" style="animation-delay:0.5s"><rect x="451" y="130" width="59" height="30" rx="15"/><text x="480.5" y="150" class="s-t" font-size="13" text-anchor="middle">BullMQ</text></g>
+  <g class="s-c" style="animation-delay:0.5s"><rect x="365" y="130" width="80" height="30" rx="15"/><text x="405.0" y="150" class="s-t" font-size="13" text-anchor="middle">Socket.IO</text></g>
+  <g class="s-c" style="animation-delay:0.5s"><rect x="451" y="130" width="59" height="30" rx="15"/><text x="480.5" y="150" class="s-t" font-size="13" text-anchor="middle">BullMQ</text></g>
   <text x="28" y="197" class="s-t" font-size="13" fill="#64748b">Data</text>
   <g class="s-c" style="animation-delay:1.0s"><rect x="104" y="176" width="87" height="30" rx="15"/><text x="147.5" y="196" class="s-t" font-size="13" text-anchor="middle">PostgreSQL</text></g>
-  <g class="s-c s-new" style="animation-delay:1.0s"><rect x="197" y="176" width="66" height="30" rx="15"/><text x="230.0" y="196" class="s-t" font-size="13" text-anchor="middle">Drizzle</text></g>
+  <g class="s-c" style="animation-delay:1.0s"><rect x="197" y="176" width="66" height="30" rx="15"/><text x="230.0" y="196" class="s-t" font-size="13" text-anchor="middle">Drizzle</text></g>
   <g class="s-c" style="animation-delay:1.0s"><rect x="269" y="176" width="59" height="30" rx="15"/><text x="298.5" y="196" class="s-t" font-size="13" text-anchor="middle">Prisma</text></g>
   <g class="s-c" style="animation-delay:1.0s"><rect x="334" y="176" width="52" height="30" rx="15"/><text x="360.0" y="196" class="s-t" font-size="13" text-anchor="middle">Redis</text></g>
   <g class="s-c" style="animation-delay:1.0s"><rect x="392" y="176" width="73" height="30" rx="15"/><text x="428.5" y="196" class="s-t" font-size="13" text-anchor="middle">Supabase</text></g>
   <text x="28" y="243" class="s-t" font-size="13" fill="#64748b">AI</text>
-  <g class="s-c s-new" style="animation-delay:1.5s"><rect x="104" y="222" width="59" height="30" rx="15"/><text x="133.5" y="242" class="s-t" font-size="13" text-anchor="middle">Mastra</text></g>
-  <g class="s-c s-new" style="animation-delay:1.5s"><rect x="169" y="222" width="87" height="30" rx="15"/><text x="212.5" y="242" class="s-t" font-size="13" text-anchor="middle">OpenRouter</text></g>
+  <g class="s-c" style="animation-delay:1.5s"><rect x="104" y="222" width="59" height="30" rx="15"/><text x="133.5" y="242" class="s-t" font-size="13" text-anchor="middle">Mastra</text></g>
+  <g class="s-c" style="animation-delay:1.5s"><rect x="169" y="222" width="87" height="30" rx="15"/><text x="212.5" y="242" class="s-t" font-size="13" text-anchor="middle">OpenRouter</text></g>
   <g class="s-c" style="animation-delay:1.5s"><rect x="262" y="222" width="59" height="30" rx="15"/><text x="291.5" y="242" class="s-t" font-size="13" text-anchor="middle">Gemini</text></g>
   <g class="s-c" style="animation-delay:1.5s"><rect x="327" y="222" width="59" height="30" rx="15"/><text x="356.5" y="242" class="s-t" font-size="13" text-anchor="middle">OpenAI</text></g>
-  <g class="s-c s-new" style="animation-delay:1.5s"><rect x="392" y="222" width="66" height="30" rx="15"/><text x="425.0" y="242" class="s-t" font-size="13" text-anchor="middle">Whisper</text></g>
-  <g class="s-c s-new" style="animation-delay:1.5s"><rect x="464" y="222" width="108" height="30" rx="15"/><text x="518.0" y="242" class="s-t" font-size="13" text-anchor="middle">LiveKit voice</text></g>
+  <g class="s-c" style="animation-delay:1.5s"><rect x="392" y="222" width="66" height="30" rx="15"/><text x="425.0" y="242" class="s-t" font-size="13" text-anchor="middle">Whisper</text></g>
+  <g class="s-c" style="animation-delay:1.5s"><rect x="464" y="222" width="108" height="30" rx="15"/><text x="518.0" y="242" class="s-t" font-size="13" text-anchor="middle">LiveKit voice</text></g>
   <text x="28" y="289" class="s-t" font-size="13" fill="#64748b">Ship</text>
   <g class="s-c" style="animation-delay:2.0s"><rect x="104" y="268" width="59" height="30" rx="15"/><text x="133.5" y="288" class="s-t" font-size="13" text-anchor="middle">Docker</text></g>
-  <g class="s-c s-new" style="animation-delay:2.0s"><rect x="169" y="268" width="66" height="30" rx="15"/><text x="202.0" y="288" class="s-t" font-size="13" text-anchor="middle">Coolify</text></g>
+  <g class="s-c" style="animation-delay:2.0s"><rect x="169" y="268" width="66" height="30" rx="15"/><text x="202.0" y="288" class="s-t" font-size="13" text-anchor="middle">Coolify</text></g>
   <g class="s-c" style="animation-delay:2.0s"><rect x="241" y="268" width="87" height="30" rx="15"/><text x="284.5" y="288" class="s-t" font-size="13" text-anchor="middle">Cloudflare</text></g>
   <g class="s-c" style="animation-delay:2.0s"><rect x="334" y="268" width="59" height="30" rx="15"/><text x="363.5" y="288" class="s-t" font-size="13" text-anchor="middle">Vercel</text></g>
   <g class="s-c" style="animation-delay:2.0s"><rect x="399" y="268" width="115" height="30" rx="15"/><text x="456.5" y="288" class="s-t" font-size="13" text-anchor="middle">GitHub Actions</text></g>
-  <g class="s-c s-new" style="animation-delay:2.0s"><rect x="520" y="268" width="87" height="30" rx="15"/><text x="563.5" y="288" class="s-t" font-size="13" text-anchor="middle">Playwright</text></g>
+  <g class="s-c" style="animation-delay:2.0s"><rect x="520" y="268" width="87" height="30" rx="15"/><text x="563.5" y="288" class="s-t" font-size="13" text-anchor="middle">Playwright</text></g>
   <line x1="28" y1="322" x2="612" y2="322" stroke="#1e2a38"/>
   <text x="28" y="346" class="s-t" font-size="13" fill="#94a3b8">Microsoft Certified · Azure AI Fundamentals</text>
 </svg>
